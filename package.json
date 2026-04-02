@@ -1,6 +1,6 @@
 {
   "name": "@usandrius/cz-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Git commit, but play nice with conventions.",
   "main": "dist/index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/@usandrius/cz-conventional-changelog"
     },
     "ghooks": {
       "pre-commit": "npm run test && npm run check-coverage"
@@ -74,7 +74,7 @@
   },
   "dependencies": {
     "cachedir": "2.3.0",
-    "cz-conventional-changelog": "3.3.0",
+    "@usandrius/cz-conventional-changelog": "0.0.3",
     "dedent": "0.7.0",
     "detect-indent": "6.1.0",
     "find-node-modules": "^2.1.2",
